@@ -85,8 +85,8 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 TEMPLATE_DIRS=(os.path.join(BASE_DIR,'templates'),)
-MEDIA_ROOT=os.path.join(BASE_DIR,'templates','media')
-STATIC_ROOT=os.path.join(BASE_DIR,'templates','static')
+MEDIA_ROOT=os.path.join(BASE_DIR,'static','media')
+STATIC_ROOT=os.path.join(BASE_DIR,'static')
 
 OUR_APPS=(
         'postreply',
